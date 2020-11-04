@@ -1,4 +1,3 @@
-import { ConsoleReporter } from 'jasmine';
 
 describe('types', () => {
 

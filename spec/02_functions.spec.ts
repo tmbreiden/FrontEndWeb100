@@ -3,8 +3,10 @@ import { isEven, TagMaker } from '../src/utils';
 describe('functions', () => {
 
     describe('higher-orderd functions', () => {
+
         // a function that takes one or more functions as arguments, or returns a function is a HOF
         it('making a tagmaker function', () => {
+
             function tagMaker(element: string, content: string): string {
                 return `<${element}>${content}</${element}>`;
             }
